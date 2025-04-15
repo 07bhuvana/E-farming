@@ -1,0 +1,128 @@
+/* Buyers Page Container */
+.buyers-container {
+  width: 150%; /* Reduce width for better fit */
+  max-width: 800px; /* Ensure it doesn’t get too wide on larger screens */
+  margin: 50px auto; /* Centers horizontally and adds space at the top */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  background: linear-gradient(to right, #4CAF50, #00897B);
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.buyers-container h2 {
+  color: #0e0e0e; /* Black color */
+}
+
+
+
+/* Login Box */
+.login-container {
+  width: 320px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Login Inputs */
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Login Button */
+.login-container button {
+  background-color: #007bff; /* Bright Blue */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Logout Button */
+.logout-button {
+  background-color: #ff3b3b; /* Bright Red */
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
+
+/* Product List, Cart & Purchase History */
+.products-list, .cart, .purchase-history {
+  border: none;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+}
+
+/* Product Item */
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  background: #baa27a; /* Light Blue */
+  padding: 12px;
+  margin: 6px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Button */
+.product-item button {
+  background-color: #ff9800; /* Bright Orange */
+  color: rgb(227, 219, 219);
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.product-item button:hover {
+  background-color: #e65100;
+}
+
+/* Back Button */
+.back-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #388E3C;
+}

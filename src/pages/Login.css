@@ -1,0 +1,103 @@
+/* Center the form on the page */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(to bottom, #651d32, #2c0d0d); /* Attractive background gradient */
+  
+}
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Form container */
+.login-container {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  max-width: 450px; /* Increased width for better display */
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+h2 {
+  color: #e67e22;
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Labels */
+label {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #2c3e50;
+}
+
+/* Icons */
+label i {
+  margin-right: 8px;
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+/* Input fields */
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box; /* Ensures padding doesn't increase size */
+}
+
+/* Submit button */
+.submit-btn {
+  background-color: #007BFF;
+  color: white;
+  padding: 12px;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Back button */
+.back-btn {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #e74c3c;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.back-btn:hover {
+  color: #c0392b;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .login-container {
+      max-width: 95%;
+      padding: 20px;
+  }
+}

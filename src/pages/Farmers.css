@@ -1,0 +1,265 @@
+/* Global Body Style Without Background Image */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eaeaea;  /* Slightly darker grey for a modern look */
+}
+
+/* Main Container with White Background */
+.farmers-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 10px;
+  align-items:center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}/* Global Body Style - Full Screen with Attractive Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background: linear-gradient(135deg, #901414, #3d4852); /* Green gradient */
+  display: flex;
+  justify-content: center;
+  
+}
+
+/* Main Container with Transparent White */
+.farmers-container {
+  max-width: 1500px;
+  width: 90%;
+  padding: 2opx,20px;
+  background: linear-gradient(to right, #4CAF50, #00897B);  /* Slight transparency */
+  border-radius: 12px;
+  align-items:center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  overflow: auto; /* Prevents hidden elements */
+}
+
+/* Category Buttons - Ensure Visibility */
+.category-buttons {
+  text-align: center;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-buttons button {
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Ensure Buttons Remain Visible */
+.category-buttons button:nth-child(1) { background-color: #2e7d32; } /* Vegetables */
+.category-buttons button:nth-child(2) { background-color: #ef6c00; } /* Fruits */
+.category-buttons button:nth-child(3) { background-color: #6d4c41; } /* Seeds */
+.category-buttons button:nth-child(4) { background-color: #d32f2f; } /* Pesticides */
+
+.category-buttons button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.category-buttons button.active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Make sure all buttons are visible */
+.quantity-controls button, .add-btn, .back-button {
+  display: inline-block;
+  visibility: visible;
+}
+
+
+/* Title Styling */
+.farmers-container h2 {
+  text-align: center;
+  color: #131514;
+  margin-bottom: 1rem;
+}
+
+/* Category Buttons with Distinct Colors */
+.category-buttons {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.category-buttons button {
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.category-buttons button:nth-child(1) {
+  background-color: #2e7d32; /* Vegetables - Darker Green */
+}
+.category-buttons button:nth-child(2) {
+  background-color: #ef6c00; /* Fruits - Darker Orange */
+}
+.category-buttons button:nth-child(3) {
+  background-color: #6d4c41; /* Seeds - Dark Brown */
+}
+.category-buttons button:nth-child(4) {
+  background-color: #d32f2f; /* Pesticides - Bold Red */
+}
+
+.category-buttons button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.category-buttons button.active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Section Styles */
+.form-section {
+  margin-bottom: 2rem;
+  background-color: #8b2f2f;
+  border: 1px solid #141415;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.form-section h3 {
+  margin-top: 0;
+  color: #101410;
+}
+
+/* Item List Layout */
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Individual Item Card */
+.item-card {
+  border: 1px solid #c8e6c9;
+  border-radius: 8px;
+  background-color: #e8f5e9;
+  width: 220px;
+  text-align: center;
+  padding: 1rem;
+  transition: transform 0.2s;
+}
+
+.item-card:hover {
+  transform: scale(1.03);
+}
+
+/* Hide any images (if present) since we're not using them now */
+.item-card img {
+  display: none;
+}
+
+/* Item Information */
+.item-info {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Quantity Controls */
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.quantity-controls button {
+  background-color: #2e7d32;
+  color: #fff;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quantity-controls button:hover {
+  background-color: #1b5e20;
+}
+
+.quantity-controls span {
+  min-width: 20px;
+  text-align: center;
+}
+
+/* Add Button - Updated Style */
+.add-btn {
+  background-color: #ffc107; /* Vibrant amber */
+  color: #000;              /* Dark text for contrast */
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-btn:hover {
+  background-color: #ffb300;
+  transform: scale(1.03);
+}
+
+/* Display Sections for Products, Earnings, etc. */
+.display-section {
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #c8e6c9;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.display-section h3 {
+  color: #0e8314;
+  font-weight: 900;
+}
+
+/* Earnings Section */
+.earnings-section h3 {
+  color: #080d08;
+  font-weight: 900;
+}
+
+/* Customers Section */
+.customers-section h3 {
+  color: #090909;
+  font-weight: 900;
+}
+
+/* Back to Dashboard Button */
+.back-button {
+  display: inline-block;
+  margin-top: 2rem;
+  background-color: #2e7d32;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #1b5e20;
+}
