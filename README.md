@@ -137,16 +137,14 @@ http://localhost:3000
 
 ---
 
-## 🖼️ **Screenshots (Add when ready)**
+## 🖼️ **Screenshots **
 
 ```
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8de3cd32-deb0-4ee6-8e73-2aff7e1d8915" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d5768c5d-8b64-457b-a302-a9b931b51bc7" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/51c2e56c-f614-4ee8-8638-bb59ad6cac0d" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/02577455-9f1d-42a2-8d55-6a9163fd5072" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4eb6779d-86d1-4af6-87d5-b4752f4f05ab" />
-
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4eb6779d-86d1-4af6-87d5-b4752f4f05ab" /
 
 ```
 
